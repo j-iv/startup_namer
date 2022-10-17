@@ -14,10 +14,11 @@ class MyApp extends StatelessWidget {
       title: 'Startup name generator',
       home: const RandomWords(),
       theme: ThemeData(
-          appBarTheme: const AppBarTheme(
-        backgroundColor: Colors.white,
-        foregroundColor: Colors.black,
-      )),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.white,
+          foregroundColor: Colors.black,
+        ),
+      ),
     );
   }
 }
